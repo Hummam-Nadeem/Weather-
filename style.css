@@ -1,0 +1,79 @@
+body{
+     background-image:  url(./weather-forecast-background.jpg);
+    background-size:cover ;
+    text-align: center ; 
+    font-family: sans-serif;
+    font-size: 150%;
+    
+    
+
+}
+#h1{
+     /* font-size: 70px ; */
+    color: orange;
+    font-style: italic;
+    padding: 20px;
+    font-size: 70px;
+    background-color: rgba(100, 100, 100, 0.5) ;
+    /* text-shadow: 40px 40px 40px grey; */
+    box-shadow: 5px 5px 5px grey;
+    /* opacity: 0.5; */
+
+}
+.sub2{
+    display: flex;
+    justify-content: center ;
+    margin-top: 50px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+
+}
+#tempC{
+    font-size: 70px;
+}
+#city_name{
+    font-size: 50px;
+}
+#weather_condition{
+    font-size: 25px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.right_div , .left_div {
+    margin-left: 30px;
+    text-align: left;
+}
+
+#main{
+    background-color:rgba(100, 100, 100, 0.7);
+    padding: 50px;
+    width: 40% ;
+    border-radius: 70px;
+    margin: 0px auto;
+    margin-top: 30px;
+    /* visibility: hidden; */
+    box-shadow: 5px 5px 10px gray;
+}
+.hidden{
+    visibility: hidden;
+}
+
+input{
+    background-color: gray;
+    color: skyblue;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid white;
+    /* box-shadow: 5px 5px 5px gray; */
+    border-radius: 25px;
+
+}
+input::placeholder{
+    color: orange;
+    font-style: italic ;
+    font-weight: bold ;
+}
+
+
